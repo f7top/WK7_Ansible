@@ -22,7 +22,7 @@ source "amazon-ebs" "aws" {
       virtualization-type = "hvm"
     }
     most_recent = true
-    jenkins      = ["099720109477"]
+    owners      = ["099720109477"]
   }
   ssh_username = "ubuntu"
   tags = {
